@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71B0C0B1E96B2410064A6C2 /* HoverboardKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71B0C031E96B2300064A6C2 /* HoverboardKit.framework */; };
+		D71B0C0C1E96B2410064A6C2 /* HoverboardKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D71B0C031E96B2300064A6C2 /* HoverboardKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7275D581E97CC3D00290B28 /* OnboardKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7275D531E97C98400290B28 /* OnboardKit.framework */; };
+		D7275D591E97CC3D00290B28 /* OnboardKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7275D531E97C98400290B28 /* OnboardKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D72F8C9A1E9A2EFB00826869 /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F8C991E9A2EFB00826869 /* LoginItem.swift */; };
+		D72F8C9D1E9A4E9F00826869 /* LaunchAtStartup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F8C9C1E9A4E9F00826869 /* LaunchAtStartup.swift */; };
+		D72F8CA61E9A7C1500826869 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F8CA51E9A7C1500826869 /* Updates.swift */; };
+		D72F8CA91E9A7DA500826869 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D72F8CA81E9A7DA500826869 /* dsa_pub.pem */; };
+		D74B5FAB1E98FB700033A2A4 /* SessionWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B5FAA1E98FB700033A2A4 /* SessionWindowController.swift */; };
+		D74B5FAD1E98FDBC0033A2A4 /* SessionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B5FAC1E98FDBC0033A2A4 /* SessionWindow.swift */; };
+		D74B5FB31E990B870033A2A4 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B5FB21E990B870033A2A4 /* GridView.swift */; };
+		D75BDBC11E96728400B94F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75BDBC01E96728400B94F9D /* AppDelegate.swift */; };
+		D75BDBC51E96728400B94F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75BDBC41E96728400B94F9D /* Assets.xcassets */; };
+		D7ABD7CC1E99512600492A8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7ABD7CB1E99512600492A8D /* MainMenu.xib */; };
+		D7ABD7CE1E99559700492A8D /* AuthorizationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABD7CD1E99559700492A8D /* AuthorizationManagerDelegate.swift */; };
+		D7ABD7D01E9955A800492A8D /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABD7CF1E9955A800492A8D /* Authorization.swift */; };
+		D7ABD7D41E997D5400492A8D /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABD7D31E997D5400492A8D /* Onboarding.swift */; };
+		D7ABD7D61E997F5200492A8D /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABD7D51E997F5200492A8D /* ShortcutView.swift */; };
+		D7ABF5711EAAB24A0040C8DF /* ActivationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABF5701EAAB24A0040C8DF /* ActivationPolicy.swift */; };
+		D7E1F4861E9AE852000257A9 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1F4851E9AE852000257A9 /* StatusItem.swift */; };
+		D7E1F4881E9AEF17000257A9 /* NSRunningApplication+Foreground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1F4871E9AEF17000257A9 /* NSRunningApplication+Foreground.swift */; };
+		DB891B513CDC761A19FE7923 /* Pods_Hoverboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6DFA6CB09BB305A8A858F8 /* Pods_Hoverboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D71B0C021E96B2300064A6C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D71B0BE31E96B22F0064A6C2;
+			remoteInfo = HoverboardKit;
+		};
+		D71B0C041E96B2300064A6C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D71B0BEC1E96B22F0064A6C2;
+			remoteInfo = HoverboardKitTests;
+		};
+		D71B0C0D1E96B2410064A6C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D71B0BE21E96B22F0064A6C2;
+			remoteInfo = HoverboardKit;
+		};
+		D7275D521E97C98400290B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7275D321E97C98300290B28;
+			remoteInfo = OnboardKit;
+		};
+		D7275D541E97C98400290B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7275D3B1E97C98300290B28;
+			remoteInfo = OnboardKitTests;
+		};
+		D7275D5A1E97CC3D00290B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D7275D311E97C98300290B28;
+			remoteInfo = OnboardKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D71B0C0F1E96B2410064A6C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D71B0C0C1E96B2410064A6C2 /* HoverboardKit.framework in Embed Frameworks */,
+				D7275D591E97CC3D00290B28 /* OnboardKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D795B21D1E98DF990018ED94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB6DFA6CB09BB305A8A858F8 /* Pods_Hoverboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hoverboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72C29E197EF0EAB33620FC6 /* Pods-Hoverboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoverboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hoverboard/Pods-Hoverboard.release.xcconfig"; sourceTree = "<group>"; };
+		D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HoverboardKit.xcodeproj; path = HoverboardKit/HoverboardKit.xcodeproj; sourceTree = "<group>"; };
+		D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OnboardKit.xcodeproj; path = OnboardKit/OnboardKit.xcodeproj; sourceTree = "<group>"; };
+		D72F8C991E9A2EFB00826869 /* LoginItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
+		D72F8C9C1E9A4E9F00826869 /* LaunchAtStartup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchAtStartup.swift; sourceTree = "<group>"; };
+		D72F8CA51E9A7C1500826869 /* Updates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updates.swift; sourceTree = "<group>"; };
+		D72F8CA81E9A7DA500826869 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		D74B5FAA1E98FB700033A2A4 /* SessionWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionWindowController.swift; sourceTree = "<group>"; };
+		D74B5FAC1E98FDBC0033A2A4 /* SessionWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionWindow.swift; sourceTree = "<group>"; };
+		D74B5FB21E990B870033A2A4 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D75BDBBD1E96728400B94F9D /* Hoverboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoverboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75BDBC01E96728400B94F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D75BDBC41E96728400B94F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D75BDBC91E96728400B94F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ABD7CB1E99512600492A8D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		D7ABD7CD1E99559700492A8D /* AuthorizationManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationManagerDelegate.swift; sourceTree = "<group>"; };
+		D7ABD7CF1E9955A800492A8D /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		D7ABD7D31E997D5400492A8D /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		D7ABD7D51E997F5200492A8D /* ShortcutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
+		D7ABF5701EAAB24A0040C8DF /* ActivationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationPolicy.swift; sourceTree = "<group>"; };
+		D7E1F4851E9AE852000257A9 /* StatusItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
+		D7E1F4871E9AEF17000257A9 /* NSRunningApplication+Foreground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRunningApplication+Foreground.swift"; sourceTree = "<group>"; };
+		F1C9F48596C62BE2032AB0A6 /* Pods-Hoverboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hoverboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hoverboard/Pods-Hoverboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75BDBBA1E96728400B94F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71B0C0B1E96B2410064A6C2 /* HoverboardKit.framework in Frameworks */,
+				D7275D581E97CC3D00290B28 /* OnboardKit.framework in Frameworks */,
+				DB891B513CDC761A19FE7923 /* Pods_Hoverboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D939B915D20A2E9447F300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1C9F48596C62BE2032AB0A6 /* Pods-Hoverboard.debug.xcconfig */,
+				C72C29E197EF0EAB33620FC6 /* Pods-Hoverboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C651B98050B88C67E005489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6DFA6CB09BB305A8A858F8 /* Pods_Hoverboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71B0BFE1E96B22F0064A6C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71B0C031E96B2300064A6C2 /* HoverboardKit.framework */,
+				D71B0C051E96B2300064A6C2 /* HoverboardKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7275D4D1E97C98300290B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7275D531E97C98400290B28 /* OnboardKit.framework */,
+				D7275D551E97C98400290B28 /* OnboardKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72F8C981E9A2E9D00826869 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D72F8C991E9A2EFB00826869 /* LoginItem.swift */,
+				D7ABF5701EAAB24A0040C8DF /* ActivationPolicy.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D72F8C9B1E9A4E8800826869 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D72F8C9C1E9A4E9F00826869 /* LaunchAtStartup.swift */,
+				D7E1F4871E9AEF17000257A9 /* NSRunningApplication+Foreground.swift */,
+				D7E1F4851E9AE852000257A9 /* StatusItem.swift */,
+				D72F8CA51E9A7C1500826869 /* Updates.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D72F8CA71E9A7D9200826869 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				D72F8CA81E9A7DA500826869 /* dsa_pub.pem */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		D75BDBB41E96728300B94F9D = {
+			isa = PBXGroup;
+			children = (
+				D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */,
+				D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */,
+				D75BDBBF1E96728400B94F9D /* Hoverboard */,
+				D75BDBBE1E96728400B94F9D /* Products */,
+				12D939B915D20A2E9447F300 /* Pods */,
+				5C651B98050B88C67E005489 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D75BDBBE1E96728400B94F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75BDBBD1E96728400B94F9D /* Hoverboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75BDBBF1E96728400B94F9D /* Hoverboard */ = {
+			isa = PBXGroup;
+			children = (
+				D72F8CA71E9A7D9200826869 /* Sparkle */,
+				D72F8C9B1E9A4E8800826869 /* Extensions */,
+				D72F8C981E9A2E9D00826869 /* Utilities */,
+				D75BDBC01E96728400B94F9D /* AppDelegate.swift */,
+				D75BDBC41E96728400B94F9D /* Assets.xcassets */,
+				D7ABD7CF1E9955A800492A8D /* Authorization.swift */,
+				D7ABD7CD1E99559700492A8D /* AuthorizationManagerDelegate.swift */,
+				D74B5FB21E990B870033A2A4 /* GridView.swift */,
+				D75BDBC91E96728400B94F9D /* Info.plist */,
+				D7ABD7CB1E99512600492A8D /* MainMenu.xib */,
+				D7ABD7D31E997D5400492A8D /* Onboarding.swift */,
+				D74B5FAC1E98FDBC0033A2A4 /* SessionWindow.swift */,
+				D74B5FAA1E98FB700033A2A4 /* SessionWindowController.swift */,
+				D7ABD7D51E997F5200492A8D /* ShortcutView.swift */,
+			);
+			path = Hoverboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75BDBBC1E96728400B94F9D /* Hoverboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75BDBCC1E96728400B94F9D /* Build configuration list for PBXNativeTarget "Hoverboard" */;
+			buildPhases = (
+				5151E1DF0C0CC0BBA7C98887 /* [CP] Check Pods Manifest.lock */,
+				D75BDBB91E96728400B94F9D /* Sources */,
+				D75BDBBA1E96728400B94F9D /* Frameworks */,
+				D75BDBBB1E96728400B94F9D /* Resources */,
+				D71B0C0F1E96B2410064A6C2 /* Embed Frameworks */,
+				D795B21D1E98DF990018ED94 /* CopyFiles */,
+				2D45D9C44120722F025087CB /* [CP] Embed Pods Frameworks */,
+				D77CA777284F4EB07EEA9A10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71B0C0E1E96B2410064A6C2 /* PBXTargetDependency */,
+				D7275D5B1E97CC3D00290B28 /* PBXTargetDependency */,
+			);
+			name = Hoverboard;
+			productName = Hoverboard;
+			productReference = D75BDBBD1E96728400B94F9D /* Hoverboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75BDBB51E96728300B94F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tim van Elsloo";
+				TargetAttributes = {
+					D75BDBBC1E96728400B94F9D = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CP455FQ855;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D75BDBB81E96728300B94F9D /* Build configuration list for PBXProject "Hoverboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D75BDBB41E96728300B94F9D;
+			productRefGroup = D75BDBBE1E96728400B94F9D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D71B0BFE1E96B22F0064A6C2 /* Products */;
+					ProjectRef = D71B0BFD1E96B22F0064A6C2 /* HoverboardKit.xcodeproj */;
+				},
+				{
+					ProductGroup = D7275D4D1E97C98300290B28 /* Products */;
+					ProjectRef = D7275D4C1E97C98300290B28 /* OnboardKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D75BDBBC1E96728400B94F9D /* Hoverboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D71B0C031E96B2300064A6C2 /* HoverboardKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HoverboardKit.framework;
+			remoteRef = D71B0C021E96B2300064A6C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D71B0C051E96B2300064A6C2 /* HoverboardKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HoverboardKitTests.xctest;
+			remoteRef = D71B0C041E96B2300064A6C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D7275D531E97C98400290B28 /* OnboardKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OnboardKit.framework;
+			remoteRef = D7275D521E97C98400290B28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D7275D551E97C98400290B28 /* OnboardKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OnboardKitTests.xctest;
+			remoteRef = D7275D541E97C98400290B28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75BDBBB1E96728400B94F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75BDBC51E96728400B94F9D /* Assets.xcassets in Resources */,
+				D72F8CA91E9A7DA500826869 /* dsa_pub.pem in Resources */,
+				D7ABD7CC1E99512600492A8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D45D9C44120722F025087CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hoverboard/Pods-Hoverboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5151E1DF0C0CC0BBA7C98887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D77CA777284F4EB07EEA9A10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hoverboard/Pods-Hoverboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75BDBB91E96728400B94F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74B5FAD1E98FDBC0033A2A4 /* SessionWindow.swift in Sources */,
+				D74B5FAB1E98FB700033A2A4 /* SessionWindowController.swift in Sources */,
+				D74B5FB31E990B870033A2A4 /* GridView.swift in Sources */,
+				D7ABD7D41E997D5400492A8D /* Onboarding.swift in Sources */,
+				D7ABD7D61E997F5200492A8D /* ShortcutView.swift in Sources */,
+				D72F8CA61E9A7C1500826869 /* Updates.swift in Sources */,
+				D7E1F4861E9AE852000257A9 /* StatusItem.swift in Sources */,
+				D7E1F4881E9AEF17000257A9 /* NSRunningApplication+Foreground.swift in Sources */,
+				D7ABD7D01E9955A800492A8D /* Authorization.swift in Sources */,
+				D7ABD7CE1E99559700492A8D /* AuthorizationManagerDelegate.swift in Sources */,
+				D72F8C9D1E9A4E9F00826869 /* LaunchAtStartup.swift in Sources */,
+				D75BDBC11E96728400B94F9D /* AppDelegate.swift in Sources */,
+				D72F8C9A1E9A2EFB00826869 /* LoginItem.swift in Sources */,
+				D7ABF5711EAAB24A0040C8DF /* ActivationPolicy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D71B0C0E1E96B2410064A6C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HoverboardKit;
+			targetProxy = D71B0C0D1E96B2410064A6C2 /* PBXContainerItemProxy */;
+		};
+		D7275D5B1E97CC3D00290B28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OnboardKit;
+			targetProxy = D7275D5A1E97CC3D00290B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D75BDBCA1E96728400B94F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D75BDBCB1E96728400B94F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D75BDBCD1E96728400B94F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C9F48596C62BE2032AB0A6 /* Pods-Hoverboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CP455FQ855;
+				INFOPLIST_FILE = Hoverboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elslooo.Hoverboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27bc5e86-eec0-4aed-a4ed-2e262f6b5b9f";
+				PROVISIONING_PROFILE_SPECIFIER = "Hoverboard Development";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D75BDBCE1E96728400B94F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72C29E197EF0EAB33620FC6 /* Pods-Hoverboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Tim van Elsloo (CP455FQ855)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CP455FQ855;
+				INFOPLIST_FILE = Hoverboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elslooo.Hoverboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Hoverboard Distribution";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75BDBB81E96728300B94F9D /* Build configuration list for PBXProject "Hoverboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75BDBCA1E96728400B94F9D /* Debug */,
+				D75BDBCB1E96728400B94F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75BDBCC1E96728400B94F9D /* Build configuration list for PBXNativeTarget "Hoverboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75BDBCD1E96728400B94F9D /* Debug */,
+				D75BDBCE1E96728400B94F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75BDBB51E96728300B94F9D /* Project object */;
+}

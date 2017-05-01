@@ -1,0 +1,25 @@
+PODS:
+  - ElsloooKit (1.0.0)
+  - HockeySDK-Mac (4.1.2)
+  - LetsMove (1.22)
+  - Sparkle (1.15.1)
+
+DEPENDENCIES:
+  - ElsloooKit (from `https://elsl.ooo/pods/elslooo-kit/podspec`)
+  - HockeySDK-Mac
+  - LetsMove
+  - Sparkle
+
+EXTERNAL SOURCES:
+  ElsloooKit:
+    :podspec: https://elsl.ooo/pods/elslooo-kit/podspec
+
+SPEC CHECKSUMS:
+  ElsloooKit: b082717f9b2574fd3194013c94a9737d029cabeb
+  HockeySDK-Mac: f067286d489181dd3c43c14395a6570f3caf4704
+  LetsMove: 407d4d14815e6dc1549b6a9fe8e4b0f6aed3e305
+  Sparkle: 618fd2d2867fa06a5572a8c4a4c6a721f04da2d2
+
+PODFILE CHECKSUM: 2ce8f2885b05652c4a1e4d31f0c2d7b9313afbcf
+
+COCOAPODS: 1.2.1

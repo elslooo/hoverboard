@@ -1,0 +1,24 @@
+disabled_rules:
+    # Suffixing types with a colon hurts my eyes.
+    - colon
+    # Disable this before pushing.
+    - todo
+    - closure_parameter_position
+    # Sometimes you want to align the arrows with other lines to satisfy your
+    # OCD.
+    - return_arrow_whitespace
+opt_in_rules:
+    - missing_docs
+    - first_where
+    - force_unwrapping
+    - implicitly_unwrapped_optional
+    - nimble_operator
+    - overridden_super_call
+    - private_outlet
+    - prohibited_super_call
+    - redundant_nil_coalescing
+    - sorted_imports
+    - switch_case_on_newline
+    - valid_docs
+
+line_length: 80
