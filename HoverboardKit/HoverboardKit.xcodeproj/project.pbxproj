@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D70359E71EAA829D002630DB /* NSScreen+CGDirectDisplayID.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70359E61EAA829D002630DB /* NSScreen+CGDirectDisplayID.swift */; };
 		D71B0BED1E96B22F0064A6C2 /* HoverboardKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71B0BE31E96B22F0064A6C2 /* HoverboardKit.framework */; };
-		D71B0BF21E96B22F0064A6C2 /* HoverboardKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B0BF11E96B22F0064A6C2 /* HoverboardKitTests.swift */; };
 		D71B0BF41E96B22F0064A6C2 /* HoverboardKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D71B0BE61E96B22F0064A6C2 /* HoverboardKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D71B0C111E96B24B0064A6C2 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B0C101E96B24B0064A6C2 /* WindowManager.swift */; };
 		D71B0C131E96B64E0064A6C2 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71B0C121E96B64E0064A6C2 /* AuthorizationManager.swift */; };
@@ -45,8 +44,6 @@
 		D71B0BE61E96B22F0064A6C2 /* HoverboardKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoverboardKit.h; sourceTree = "<group>"; };
 		D71B0BE71E96B22F0064A6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71B0BEC1E96B22F0064A6C2 /* HoverboardKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverboardKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D71B0BF11E96B22F0064A6C2 /* HoverboardKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverboardKitTests.swift; sourceTree = "<group>"; };
-		D71B0BF31E96B22F0064A6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71B0C101E96B24B0064A6C2 /* WindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
 		D71B0C121E96B64E0064A6C2 /* AuthorizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
 		D71B0C141E96B6DA0064A6C2 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
@@ -88,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				D71B0BE51E96B22F0064A6C2 /* HoverboardKit */,
-				D71B0BF01E96B22F0064A6C2 /* HoverboardKitTests */,
 				D71B0BE41E96B22F0064A6C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,15 +118,6 @@
 				D74B5FA61E98FA580033A2A4 /* WindowManagerDelegate.swift */,
 			);
 			path = HoverboardKit;
-			sourceTree = "<group>";
-		};
-		D71B0BF01E96B22F0064A6C2 /* HoverboardKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				D71B0BF11E96B22F0064A6C2 /* HoverboardKitTests.swift */,
-				D71B0BF31E96B22F0064A6C2 /* Info.plist */,
-			);
-			path = HoverboardKitTests;
 			sourceTree = "<group>";
 		};
 		D74B5FB41E9916FC0033A2A4 /* Accessibility */ = {
@@ -290,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71B0BF21E96B22F0064A6C2 /* HoverboardKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
