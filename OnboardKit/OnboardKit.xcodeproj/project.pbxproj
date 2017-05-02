@@ -10,7 +10,6 @@
 		D703251B1EA36CB300AE0E77 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703251A1EA36CB300AE0E77 /* NSImage.swift */; };
 		D703251D1EA3880600AE0E77 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703251C1EA3880600AE0E77 /* NSColor.swift */; };
 		D7275D3C1E97C98300290B28 /* OnboardKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7275D321E97C98300290B28 /* OnboardKit.framework */; };
-		D7275D411E97C98300290B28 /* OnboardKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7275D401E97C98300290B28 /* OnboardKitTests.swift */; };
 		D7275D431E97C98300290B28 /* OnboardKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7275D351E97C98300290B28 /* OnboardKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7275D571E97CBE400290B28 /* OnboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7275D561E97CBE400290B28 /* OnboardController.swift */; };
 		D7275D5D1E97CC6500290B28 /* OnboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7275D5C1E97CC6500290B28 /* OnboardItem.swift */; };
@@ -57,8 +56,6 @@
 		D7275D351E97C98300290B28 /* OnboardKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboardKit.h; sourceTree = "<group>"; };
 		D7275D361E97C98300290B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7275D3B1E97C98300290B28 /* OnboardKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7275D401E97C98300290B28 /* OnboardKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardKitTests.swift; sourceTree = "<group>"; };
-		D7275D421E97C98300290B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7275D561E97CBE400290B28 /* OnboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardController.swift; sourceTree = "<group>"; };
 		D7275D5C1E97CC6500290B28 /* OnboardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardItem.swift; sourceTree = "<group>"; };
 		D7275D5E1E97D49800290B28 /* OnboardWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardWindowController.swift; sourceTree = "<group>"; };
@@ -110,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				D7275D341E97C98300290B28 /* OnboardKit */,
-				D7275D3F1E97C98300290B28 /* OnboardKitTests */,
 				D7275D331E97C98300290B28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,15 +143,6 @@
 				D754AC241E9830EB006AE20A /* Views */,
 			);
 			path = OnboardKit;
-			sourceTree = "<group>";
-		};
-		D7275D3F1E97C98300290B28 /* OnboardKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				D7275D401E97C98300290B28 /* OnboardKitTests.swift */,
-				D7275D421E97C98300290B28 /* Info.plist */,
-			);
-			path = OnboardKitTests;
 			sourceTree = "<group>";
 		};
 		D72F8CA01E9A6E2C00826869 /* View Controllers */ = {
@@ -366,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7275D411E97C98300290B28 /* OnboardKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
