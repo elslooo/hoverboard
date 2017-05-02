@@ -40,6 +40,12 @@ extension AppDelegate {
 
     func setupOnboarding() {
         self.updater.automaticallyChecksForUpdates = self.hasCompletedOnboarding
+        
+        if !self.hasCompletedOnboarding {
+            if self.onboardingWindowController == nil {
+                self.setupOnboardingController()
+            }
+        }
     }
 
     func setupSetupController() {
